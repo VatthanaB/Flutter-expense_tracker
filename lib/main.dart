@@ -64,11 +64,10 @@ class MyApp extends StatelessWidget {
 }
 
 var kColorScheme =
-    ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 96, 59, 181));
+    ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 0, 68, 255));
 
 var kDarkColorScheme = ColorScheme.fromSeed(
-    brightness: Brightness.dark,
-    seedColor: const Color.fromARGB(255, 5, 99, 125));
+    brightness: Brightness.dark, seedColor: Color.fromARGB(255, 5, 55, 125));
 // void main() {
 //   runApp(
 //     MaterialApp(
