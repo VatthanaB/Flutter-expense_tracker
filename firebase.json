@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "vatthana-expense-tracker",
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
