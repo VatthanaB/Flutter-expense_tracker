@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:expense_tracker/widgets/chart/chart.dart';
 import 'package:expense_tracker/widgets/expenses_list/expenses_list.dart';
 import 'package:expense_tracker/models/expense.dart';
@@ -84,7 +82,12 @@ class _ExpensesState extends State<Expenses> {
     }
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Vatthana\'s ExpenseTracker'),
+        title: const Align(
+          alignment: Alignment.centerLeft,
+          child: Text(
+            'Vatthana\'s ExpenseTracker',
+          ),
+        ),
         actions: [
           IconButton(
               onPressed: _openAddExpenseOverlay, icon: const Icon(Icons.add))

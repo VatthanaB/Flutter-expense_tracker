@@ -39,6 +39,11 @@ class MyApp extends StatelessWidget {
           appBarTheme: const AppBarTheme().copyWith(
             backgroundColor: kColorScheme.onPrimaryContainer,
             foregroundColor: kColorScheme.primaryContainer,
+            titleTextStyle: TextStyle(
+              color: kColorScheme.primaryContainer,
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+            ),
           ),
           cardTheme: const CardTheme().copyWith(
             color: kColorScheme.secondaryContainer,
