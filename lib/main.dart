@@ -57,7 +57,7 @@ class MyApp extends StatelessWidget {
                   color: kColorScheme.onSecondaryContainer,
                 ),
               )),
-      themeMode: ThemeMode.dark,
+      // themeMode: ThemeMode.dark,
       home: const Expenses(),
     );
   }
